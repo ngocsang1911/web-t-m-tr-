@@ -1,0 +1,54 @@
+
+
+.room-detail{
+    padding: 1% 5%;
+}
+
+.price{
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+.info_price{
+    display: flex;
+    justify-content: space-between
+}
+
+.container_product{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 2%;
+}
+
+.image_detail{
+    border-radius: 5px;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    grid-column: span 7; 
+}
+
+.profile{
+    grid-column: span 3;
+   
+}
+.profile_model{
+    overflow: hidden;
+    padding: 20px 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: max-content;
+}
+.profile_avt{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+.profile_button{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding-top: 20px;
+
+}
